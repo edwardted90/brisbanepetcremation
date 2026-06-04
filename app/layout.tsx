@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Pet Cremation Brisbane | Dignified & Professional Pet Cremation Services",
   description: "Compassionate, individual pet cremation services in Brisbane. Private cremations, ashes returned, and caring support for families saying goodbye to their pets.",
   keywords: ["pet cremation brisbane", "dog cremation brisbane", "cat cremation brisbane", "pet cremation services brisbane", "animal cremation brisbane"],
+  other: {
+    "google-site-verification": "HXHHrNjNka7dSt",
+  },
 };
 
 export default function RootLayout({
