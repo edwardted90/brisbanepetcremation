@@ -22,10 +22,10 @@ export default function BrisbanePetCremation() {
           <img src="/hero.jpg" alt="Peaceful pet cremation moment" className="mx-auto mb-10 rounded-2xl shadow-xl max-h-[420px] object-cover" />
           
           <h1 className="text-5xl font-semibold tracking-tighter">
-            Pet Cremation Brisbane – Compare & Get Quotes
+            Pet Cremation Brisbane
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-xl text-zinc-600">
-            Find trusted local pet cremation providers in Brisbane. Compare options and get quotes from multiple services. Simple and free.
+            Professional and compassionate pet cremation services for families across Brisbane. Private cremations with ashes returned.
           </p>
           <p className="mt-4 text-sm tracking-[2px] text-zinc-500">PRIVATE CREMATIONS • ASHES RETURNED • 24/7 COLLECTION</p>
 
@@ -70,7 +70,7 @@ export default function BrisbanePetCremation() {
       {/* Services */}
       <section className="bg-zinc-50 py-20">
         <div className="mx-auto max-w-5xl px-6">
-          <h2 className="text-center text-3xl font-semibold tracking-tight">Pet Cremation Options in Brisbane</h2>
+          <h2 className="text-center text-3xl font-semibold tracking-tight">Our Services</h2>
           
           <div className="mt-12 grid gap-8 md:grid-cols-2">
             <div className="rounded-2xl border border-zinc-200 bg-white p-8">
@@ -117,8 +117,8 @@ export default function BrisbanePetCremation() {
       <section id="quote" className="border-t border-zinc-200 bg-white py-16">
         <div className="mx-auto max-w-xl px-6">
           <div className="text-center">
-            <h2 className="text-3xl font-semibold tracking-tight">Get Your Free Quote</h2>
-            <p className="mt-3 text-zinc-600">Fill out the form and we'll connect you with trusted local providers.</p>
+            <h2 className="text-3xl font-semibold tracking-tight">Request a Quote</h2>
+            <p className="mt-3 text-zinc-600">Get in touch to arrange a caring and respectful service for your pet.</p>
           </div>
 
           <form className="mt-10 space-y-4">
