@@ -15,25 +15,25 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.gentlepetcremation.com'),
   title: {
-    default: 'Pet Cremation Brisbane | Dignified & Professional Pet Cremation Services',
+    default: 'Pet Cremation Brisbane – Get Quotes from Local Providers',
     template: '%s | Gentle Pet Cremation',
   },
-  description: 'Compassionate, individual pet cremation services in Brisbane. Private cremations, ashes returned, and caring support for families saying goodbye to their pets.',
-  keywords: ['pet cremation brisbane', 'dog cremation brisbane', 'cat cremation brisbane', 'pet cremation services brisbane', 'animal cremation brisbane'],
+  description: 'Compare trusted pet cremation providers in Brisbane. Get instant quotes, read reviews, and choose the right service for your pet. Fast, simple, and local.',
+  keywords: ['pet cremation brisbane', 'pet cremation quotes brisbane', 'dog cremation brisbane', 'cat cremation brisbane', 'pet cremation cost brisbane'],
   verification: {
     google: 'HXHHrNjNka7dStJoXwyEhMKccgLiyKkIAF5wIlF3mPc',
   },
   openGraph: {
-    title: 'Pet Cremation Brisbane | Gentle Pet Cremation',
-    description: 'Compassionate, individual pet cremation services in Brisbane. Private cremations, ashes returned, and caring support for families.',
+    title: 'Pet Cremation Brisbane – Get Quotes from Local Providers',
+    description: 'Compare trusted pet cremation providers in Brisbane. Get instant quotes and choose the right service for your pet.',
     images: [{ url: '/og-image.jpg' }],
     locale: 'en_AU',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pet Cremation Brisbane | Gentle Pet Cremation',
-    description: 'Compassionate, individual pet cremation services in Brisbane.',
+    title: 'Pet Cremation Brisbane – Get Quotes from Local Providers',
+    description: 'Compare trusted pet cremation providers in Brisbane. Get instant quotes and choose the right service for your pet.',
   },
 };
 
@@ -46,7 +46,7 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Gentle Pet Cremation',
-    description: 'Compassionate, individual pet cremation services in Brisbane.',
+    description: 'Compare pet cremation providers in Brisbane. Get quotes from trusted local services.',
     url: 'https://www.gentlepetcremation.com',
     telephone: '+61-XXX-XXX-XXX',
     address: {
@@ -56,6 +56,7 @@ export default function RootLayout({
       addressCountry: 'AU',
     },
     areaServed: 'Brisbane, Queensland, Australia',
+    serviceType: 'Pet Cremation Lead Generation',
   };
 
   return (
