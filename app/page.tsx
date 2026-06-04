@@ -22,10 +22,10 @@ export default function BrisbanePetCremation() {
           <img src="/hero.jpg" alt="Peaceful pet cremation moment" className="mx-auto mb-10 rounded-2xl shadow-xl max-h-[420px] object-cover" />
           
           <h1 className="text-5xl font-semibold tracking-tighter">
-            Pet Cremation Brisbane – Get Quotes from Local Providers
+            Pet Cremation Brisbane – Compare & Get Quotes
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-xl text-zinc-600">
-            Compare trusted pet cremation services in Brisbane. Get instant quotes from local providers. Fast, simple, and local.
+            Find trusted local pet cremation providers in Brisbane. Compare options and get quotes from multiple services. Simple and free.
           </p>
           <p className="mt-4 text-sm tracking-[2px] text-zinc-500">PRIVATE CREMATIONS • ASHES RETURNED • 24/7 COLLECTION</p>
 
@@ -41,9 +41,9 @@ export default function BrisbanePetCremation() {
       {/* Trust */}
       <section className="mx-auto max-w-5xl px-6 py-20">
         <div className="text-center">
-          <h2 className="text-3xl font-semibold tracking-tight">Why Brisbane Families Trust Us</h2>
+          <h2 className="text-3xl font-semibold tracking-tight">How It Works</h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-zinc-600">
-            At Brisbane Pet Cremation, we specialise in providing premium, individual pet cremation services with complete transparency and compassion.
+            We connect you with trusted local pet cremation providers in Brisbane. Compare options and choose what works best for you.
           </p>
         </div>
 
@@ -70,7 +70,7 @@ export default function BrisbanePetCremation() {
       {/* Services */}
       <section className="bg-zinc-50 py-20">
         <div className="mx-auto max-w-5xl px-6">
-          <h2 className="text-center text-3xl font-semibold tracking-tight">Pet Cremation Services in Brisbane</h2>
+          <h2 className="text-center text-3xl font-semibold tracking-tight">Pet Cremation Options in Brisbane</h2>
           
           <div className="mt-12 grid gap-8 md:grid-cols-2">
             <div className="rounded-2xl border border-zinc-200 bg-white p-8">
