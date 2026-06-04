@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Pet Cremation Services Brisbane | Compare Local Providers',
-  description: 'Explore pet cremation options in Brisbane. Compare private cremation, dog cremation, cat cremation and more from trusted local providers. Get quotes today.',
+  title: 'Pet Cremation Services Brisbane',
+  description: 'Professional pet cremation services in Brisbane. Private cremation, dog cremation, cat cremation and additional options available.',
 };
 
 export default function ServicesPage() {
@@ -11,7 +11,7 @@ export default function ServicesPage() {
       <div className="mx-auto max-w-5xl px-6 py-16">
         <h1 className="text-4xl font-semibold tracking-tight">Pet Cremation Services in Brisbane</h1>
         <p className="mt-4 max-w-2xl text-xl text-zinc-600">
-          Compare different pet cremation options available from local providers across Brisbane. Find the right service for your needs.
+          We offer a range of professional pet cremation services designed to provide dignity and peace of mind for families in Brisbane.
         </p>
 
         <div className="mt-12 grid gap-8 md:grid-cols-2">
@@ -40,7 +40,7 @@ export default function ServicesPage() {
           <a href="/#quote" className="inline-block rounded-full bg-zinc-900 px-10 py-5 text-xl font-semibold text-white transition hover:bg-black">
             Get Your Free Quote
           </a>
-          <p className="mt-4 text-sm text-zinc-500">Compare multiple providers • No obligation</p>
+          <p className="mt-4 text-sm text-zinc-500">Contact us to learn more about our services</p>
         </div>
       </div>
     </div>
