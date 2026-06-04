@@ -5,7 +5,7 @@ export default function BrisbanePetCremation() {
     "name": "Brisbane Pet Cremation",
     "description": "Compassionate, individual pet cremation services in Brisbane.",
     "url": "https://brisbanepetcremation.com.au",
-    "telephone": "07 XXXX XXXX",
+    "telephone": "0473 043 696",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Brisbane",
@@ -28,12 +28,6 @@ export default function BrisbanePetCremation() {
             When the time comes to say goodbye, we provide calm, respectful, and professional pet cremation for families across Brisbane.
           </p>
           <p className="mt-4 text-sm tracking-[2px] text-zinc-500">PRIVATE CREMATIONS • ASHES RETURNED • 24/7 COLLECTION</p>
-          
-          <div className="mt-10">
-            <a href="#quote" className="inline-block rounded-full bg-zinc-900 px-8 py-4 text-sm font-medium text-white transition hover:bg-black">
-              Request a Quote
-            </a>
-          </div>
         </div>
       </section>
 
