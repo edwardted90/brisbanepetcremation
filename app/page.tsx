@@ -22,12 +22,19 @@ export default function BrisbanePetCremation() {
           <img src="/hero.jpg" alt="Peaceful pet cremation moment" className="mx-auto mb-10 rounded-2xl shadow-xl max-h-[420px] object-cover" />
           
           <h1 className="text-5xl font-semibold tracking-tighter">
-            Dignified Pet Cremation Services in Brisbane
+            Pet Cremation Brisbane – Get Quotes from Local Providers
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-xl text-zinc-600">
-            When the time comes to say goodbye, we provide calm, respectful, and professional pet cremation for families across Brisbane.
+            Compare trusted pet cremation services in Brisbane. Get instant quotes from local providers. Fast, simple, and local.
           </p>
           <p className="mt-4 text-sm tracking-[2px] text-zinc-500">PRIVATE CREMATIONS • ASHES RETURNED • 24/7 COLLECTION</p>
+
+          <div className="mt-8 flex flex-col items-center gap-4">
+            <a href="tel:0473043696" className="inline-block rounded-full bg-zinc-900 px-10 py-4 text-lg font-semibold text-white transition hover:bg-black">
+              Call 0473 043 696
+            </a>
+            <p className="text-sm text-zinc-500">or request a quote below</p>
+          </div>
         </div>
       </section>
 
@@ -106,13 +113,33 @@ export default function BrisbanePetCremation() {
       </section>
 
       {/* Contact */}
+      {/* Lead Form */}
+      <section id="quote" className="border-t border-zinc-200 bg-white py-16">
+        <div className="mx-auto max-w-xl px-6">
+          <div className="text-center">
+            <h2 className="text-3xl font-semibold tracking-tight">Get Your Free Quote</h2>
+            <p className="mt-3 text-zinc-600">Fill out the form and we'll connect you with trusted local providers.</p>
+          </div>
+
+          <form className="mt-10 space-y-4">
+            <input type="text" placeholder="Your Name" className="w-full rounded-xl border border-zinc-300 px-5 py-4 text-lg" required />
+            <input type="tel" placeholder="Phone Number" className="w-full rounded-xl border border-zinc-300 px-5 py-4 text-lg" required />
+            <input type="text" placeholder="Pet Type (Dog, Cat, etc.)" className="w-full rounded-xl border border-zinc-300 px-5 py-4 text-lg" />
+            <button type="submit" className="w-full rounded-full bg-zinc-900 py-5 text-xl font-semibold text-white transition hover:bg-black">
+              Request Quote
+            </button>
+          </form>
+          <p className="mt-4 text-center text-xs text-zinc-500">We respect your privacy. Your details are only shared with verified local providers.</p>
+        </div>
+      </section>
+
       <section id="contact" className="border-t border-zinc-200 bg-zinc-900 py-20 text-white">
         <div className="mx-auto max-w-2xl px-6 text-center">
-          <h2 className="text-3xl font-semibold tracking-tight">Get in Touch</h2>
-          <p className="mt-4 text-lg text-zinc-400">Call us directly to arrange a caring and respectful service.</p>
+          <h2 className="text-3xl font-semibold tracking-tight">Prefer to Call Directly?</h2>
+          <p className="mt-4 text-lg text-zinc-400">Speak with a caring team member 7 days a week.</p>
 
           <div className="mt-10">
-            <a href="tel:0473043696" className="inline-block rounded-full bg-white px-10 py-5 text-xl font-semibold text-zinc-900 transition hover:bg-zinc-100">
+            <a href="tel:0473043696" className="inline-block rounded-full bg-white px-12 py-5 text-2xl font-semibold text-zinc-900 transition hover:bg-zinc-100">
               0473 043 696
             </a>
           </div>
