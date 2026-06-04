@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   title: "Pet Cremation Brisbane | Dignified & Professional Pet Cremation Services",
   description: "Compassionate, individual pet cremation services in Brisbane. Private cremations, ashes returned, and caring support for families saying goodbye to their pets.",
   keywords: ["pet cremation brisbane", "dog cremation brisbane", "cat cremation brisbane", "pet cremation services brisbane", "animal cremation brisbane"],
-  other: {
-    "google-site-verification": "HXHHrNjNka7dStJoXwyEhMKccgLiyKkIAF5wIlF3mPc",
+  verification: {
+    google: "HXHHrNjNka7dStJoXwyEhMKccgLiyKkIAF5wIlF3mPc",
   },
 };
 
@@ -31,9 +31,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <head>
-        <meta name="google-site-verification" content="HXHHrNjNka7dStJoXwyEhMKccgLiyKkIAF5wIlF3mPc" />
-      </head>
+      
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
