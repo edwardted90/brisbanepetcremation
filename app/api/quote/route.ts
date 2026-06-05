@@ -12,7 +12,7 @@ export async function POST(request: Request) {
       phone,
       petType: petType || 'Not specified',
       timestamp: new Date().toISOString(),
-      source: 'gentlepetcremation.com',
+      source: 'https://www.gentlepetcremation.com',
     });
 
     // TODO: Add real email sending here using env vars for API keys

@@ -57,7 +57,7 @@ export default function RootLayout({
       addressCountry: 'AU',
     },
     areaServed: ['Brisbane', 'Queensland', 'Australia'],
-    serviceType: 'Pet Cremation Lead Generation & Local Provider Matching',
+    serviceType: 'Pet Cremation Services',
     openingHours: 'Mo-Su 00:00-23:59',
     priceRange: '$$',
     hasOfferCatalog: {

@@ -17,7 +17,7 @@ export default function GentlePetCremation() {
     "name": "Gentle Pet Cremation",
     "description": "Compare trusted pet cremation providers in Brisbane. Get instant quotes from local services.",
     "url": "https://www.gentlepetcremation.com",
-    "telephone": "0473 043 696",
+    "telephone": "+61 473 043 696",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Brisbane",
