@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 export default function GentlePetCremation() {
   const [formData, setFormData] = useState({
@@ -145,7 +146,7 @@ export default function GentlePetCremation() {
       {/* Hero */}
       <section className="border-b border-zinc-200 bg-zinc-50">
         <div className="mx-auto max-w-5xl px-6 py-20 text-center">
-          <img src="/hero.jpg" alt="Peaceful pet cremation moment in Brisbane" className="mx-auto mb-10 rounded-2xl shadow-xl max-h-[420px] object-cover" />
+          <Image src="/hero.jpg" alt="Peaceful pet cremation moment in Brisbane" width={800} height={420} className="mx-auto mb-10 rounded-2xl shadow-xl max-h-[420px] object-cover" priority />
           
           <h1 className="text-4xl md:text-5xl font-semibold tracking-tighter">
             Gentle Pet Cremation Brisbane
@@ -174,7 +175,7 @@ export default function GentlePetCremation() {
         </div>
 
         <div className="mt-10 flex justify-center">
-          <img src="/trust.jpg" alt="Caring pet cremation service Brisbane" className="rounded-2xl shadow-lg max-h-[380px] object-cover" />
+          <Image src="/trust.jpg" alt="Caring pet cremation service Brisbane" width={800} height={380} className="rounded-2xl shadow-lg max-h-[380px] object-cover" />
         </div>
 
         <div className="mt-12 grid gap-8 md:grid-cols-3">

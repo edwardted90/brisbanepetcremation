@@ -24,6 +24,9 @@ export const metadata: Metadata = {
   verification: {
     google: 'HXHHrNjNka7dStJoXwyEhMKccgLiyKkIAF5wIlF3mPc',
   },
+  alternates: {
+    canonical: 'https://www.gentlepetcremation.com',
+  },
   openGraph: {
     title: 'Pet Cremation Brisbane – Get Quotes from Local Providers',
     description: 'Compare trusted pet cremation providers in Brisbane. Get instant quotes and choose the right service for your pet.',
