@@ -22,5 +22,29 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Mobile responsiveness improvements */
+@media (max-width: 640px) {
+  .text-5xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  
+  /* Ensure no horizontal overflow */
+  html, body {
+    overflow-x: hidden;
+  }
+  
+  /* Better touch targets for links/buttons */
+  a, button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Form inputs larger touch area */
+  input, button {
+    font-size: 16px !important; /* Prevent zoom on iOS */
+  }
 }

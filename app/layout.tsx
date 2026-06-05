@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -81,18 +82,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <nav className="border-b border-zinc-200 bg-white">
-          <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-            <a href="/" className="font-semibold tracking-tight">Gentle Pet Cremation</a>
-            <div className="flex items-center gap-6 text-sm">
-              <a href="/services" className="hover:text-zinc-600">Services</a>
-              <a href="/how-it-works" className="hover:text-zinc-600">How it Works</a>
-              <a href="/cost" className="hover:text-zinc-600">Cost</a>
-              <a href="/contact" className="hover:text-zinc-600">Contact</a>
-              <a href="/#quote" className="rounded-full bg-zinc-900 px-5 py-2 text-white hover:bg-black">Get Quote</a>
-            </div>
-          </div>
-        </nav>
+        <Navbar />
         {children}
       </body>
     </html>

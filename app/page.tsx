@@ -147,7 +147,7 @@ export default function GentlePetCremation() {
         <div className="mx-auto max-w-5xl px-6 py-20 text-center">
           <img src="/hero.jpg" alt="Peaceful pet cremation moment in Brisbane" className="mx-auto mb-10 rounded-2xl shadow-xl max-h-[420px] object-cover" />
           
-          <h1 className="text-5xl font-semibold tracking-tighter">
+          <h1 className="text-4xl md:text-5xl font-semibold tracking-tighter">
             Gentle Pet Cremation Brisbane
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-xl text-zinc-600">
