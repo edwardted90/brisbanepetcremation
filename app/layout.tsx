@@ -41,3 +41,18 @@ export const metadata: Metadata = {
     description: 'Offering private pet cremation services in Brisbane with individual cremation and ashes returned.',
   },
 };
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <Navbar />
+        {children}
+      </body>
+    </html>
+  );
+}
