@@ -27,12 +27,12 @@ export default function ServicesPage() {
 
           <div className="rounded-2xl border border-zinc-200 p-8">
             <h3 className="text-2xl font-semibold">Cat Cremation Brisbane</h3>
-            <p className="mt-3 text-zinc-600">Gentle and respectful cremation services specifically for cats. Multiple local providers available.</p>
+            <p className="mt-3 text-zinc-600">Gentle and respectful cremation services specifically for cats. Compassionate and respectful service available.</p>
           </div>
 
           <div className="rounded-2xl border border-zinc-200 p-8">
             <h3 className="text-2xl font-semibold">Additional Options</h3>
-            <p className="mt-3 text-zinc-600">Paw prints, fur keepsakes, premium urns, and after-hours collection available from many providers.</p>
+            <p className="mt-3 text-zinc-600">Paw prints, fur keepsakes, premium urns, and after-hours collection available as part of our service.</p>
           </div>
         </div>
 

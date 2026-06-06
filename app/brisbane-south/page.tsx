@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Pet Cremation Brisbane South | Local Providers',
-  description: 'Pet cremation services for Brisbane South suburbs. Compare providers and get quotes from local services.',
+  description: 'Pet cremation services for Brisbane South suburbs. Private pet cremation services for Brisbane suburbs.',
 };
 
 export default function BrisbaneSouthPage() {
@@ -10,10 +10,10 @@ export default function BrisbaneSouthPage() {
     <div className="min-h-screen bg-white font-sans text-zinc-900">
       <div className="mx-auto max-w-4xl px-6 py-16">
         <h1 className="text-4xl font-semibold tracking-tight">Pet Cremation Brisbane South</h1>
-        <p className="mt-4 text-xl text-zinc-600">Find local pet cremation providers serving Brisbane South suburbs.</p>
+        <p className="mt-4 text-xl text-zinc-600">We provide pet cremation services serving Brisbane South suburbs.</p>
 
         <div className="mt-12">
-          <p className="text-lg text-zinc-600">We connect you with trusted providers who service areas including:</p>
+          <p className="text-lg text-zinc-600">We provide services across the following areas including:</p>
           <ul className="mt-4 grid grid-cols-2 gap-x-8 gap-y-2 text-lg">
             {['Sunnybank', 'Moorooka', 'Coopers Plains', 'Acacia Ridge', 'Eight Mile Plains', 'Runcorn', 'Kuraby', 'Woodridge'].map(area => (
               <li key={area}>• {area}</li>

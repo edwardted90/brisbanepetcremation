@@ -10,7 +10,7 @@ export default function ContactPage() {
     <div className="min-h-screen bg-white font-sans text-zinc-900">
       <div className="mx-auto max-w-3xl px-6 py-16">
         <h1 className="text-4xl font-semibold tracking-tight">Contact Us</h1>
-        <p className="mt-4 text-xl text-zinc-600">Get connected with trusted pet cremation providers in Brisbane.</p>
+        <p className="mt-4 text-xl text-zinc-600">Contact us for private pet cremation services in Brisbane.</p>
 
         <div className="mt-12 space-y-8 text-lg">
           <div>
@@ -25,7 +25,7 @@ export default function ContactPage() {
 
           <div>
             <div className="font-semibold">Hours</div>
-            <p className="mt-1 text-zinc-600">Available 7 days a week. After-hours collection supported by many providers.</p>
+            <p className="mt-1 text-zinc-600">Available 7 days a week. After-hours collection available.</p>
           </div>
         </div>
 

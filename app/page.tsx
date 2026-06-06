@@ -16,7 +16,7 @@ export default function GentlePetCremation() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Gentle Pet Cremation",
-    "description": "Compare trusted pet cremation providers in Brisbane. Get instant quotes from local services. Private pet cremation Brisbane with ashes returned.",
+    "description": "Private pet cremation services in Brisbane. Individual cremations with ashes returned to you. Compassionate home collection and transparent pricing for dogs, cats and all pets.",
     "url": "https://www.gentlepetcremation.com",
     "telephone": "+61 473 043 696",
     "address": {
@@ -46,7 +46,7 @@ export default function GentlePetCremation() {
         "name": "Do you offer home collection for pets in Brisbane?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, our trusted network of providers offers professional and compassionate home or vet clinic collection 7 days a week, including after hours and weekends across Brisbane North, South, East and West."
+          "text": "Yes, our team offers professional and compassionate home or vet clinic collection 7 days a week, including after hours and weekends across Brisbane North, South, East and West."
         }
       },
       {
@@ -54,7 +54,7 @@ export default function GentlePetCremation() {
         "name": "How long until I receive my pet's ashes back?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ashes are usually returned within 5-7 business days in a premium urn of your choice. Many providers also offer express options."
+          "text": "Ashes are usually returned within 5-7 business days in a premium urn of your choice. We also offer express options."
         }
       },
       {
@@ -78,7 +78,7 @@ export default function GentlePetCremation() {
         "name": "Can I choose memorial keepsakes or urns?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. A wide range of premium urns, paw prints, fur clips, photo frames and custom memorials are available from local Brisbane providers."
+          "text": "Yes. A wide range of premium urns, paw prints, fur clips, photo frames and custom memorials are available as part of our service."
         }
       },
       {
@@ -86,7 +86,7 @@ export default function GentlePetCremation() {
         "name": "Is 24/7 support and collection available for pet cremation Brisbane?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, many providers in our network offer 24/7 phone support and emergency collection services for grieving families."
+          "text": "Yes, our team offers 24/7 phone support and emergency collection services for grieving families."
         }
       },
       {
@@ -152,7 +152,7 @@ export default function GentlePetCremation() {
             Gentle Pet Cremation Brisbane
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-xl text-zinc-600">
-            Compare trusted local providers for private pet cremation in Brisbane. Individual cremations with ashes returned. Instant quotes from verified Brisbane services.
+            Private pet cremation services in Brisbane. Individual cremations with ashes returned. Compassionate home collection and 24/7 support for dogs, cats and all pets.
           </p>
           <p className="mt-4 text-sm tracking-[2px] text-zinc-500">PRIVATE CREMATIONS • HOME COLLECTION • DOG &amp; CAT CREMATION BRISBANE • 24/7 SUPPORT</p>
 
@@ -170,7 +170,7 @@ export default function GentlePetCremation() {
         <div className="text-center">
           <h2 className="text-3xl font-semibold tracking-tight">How It Works – Pet Cremation Brisbane</h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-zinc-600">
-            We connect you with trusted local pet cremation providers in Brisbane. Compare options for private pet cremation and choose what works best.
+            We provide private pet cremation services across Brisbane with care and dignity. Individual cremations, home collection, and ashes returned in a premium urn of your choice.
           </p>
         </div>
 
@@ -214,7 +214,7 @@ export default function GentlePetCremation() {
             </div>
             <div className="rounded-2xl border border-zinc-200 bg-white p-8">
               <h3 className="text-xl font-semibold">Additional Keepsakes</h3>
-              <p className="mt-3 text-zinc-600">Paw prints, fur keepsakes, premium urns and memorial items available from local providers. <a href="/how-it-works" className="text-zinc-900 underline">See the full process</a>.</p>
+              <p className="mt-3 text-zinc-600">Paw prints, fur keepsakes, premium urns and memorial items available as part of our service. <a href="/how-it-works" className="text-zinc-900 underline">See the full process</a>.</p>
             </div>
           </div>
         </div>
@@ -245,7 +245,7 @@ export default function GentlePetCremation() {
         <div className="mx-auto max-w-xl px-6">
           <div className="text-center">
             <h2 className="text-3xl font-semibold tracking-tight">Request a Pet Cremation Quote</h2>
-            <p className="mt-3 text-zinc-600">Get connected with trusted Brisbane pet cremation providers instantly.</p>
+            <p className="mt-3 text-zinc-600">Request a quote for private pet cremation in Brisbane. We handle everything with care and compassion.</p>
           </div>
 
           <form onSubmit={handleSubmit} className="mt-10 space-y-4">
@@ -290,7 +290,7 @@ export default function GentlePetCremation() {
             </div>
           )}
 
-          <p className="mt-4 text-center text-xs text-zinc-500">We respect your privacy. Your details are only shared with verified local providers.</p>
+          <p className="mt-4 text-center text-xs text-zinc-500">We respect your privacy. Your details are kept private and used only to arrange your pet's cremation.</p>
         </div>
       </section>
 
@@ -307,11 +307,11 @@ export default function GentlePetCremation() {
             </div>
             <div>
               <h3 className="font-semibold text-lg">Do you offer home collection for pets in Brisbane?</h3>
-              <p className="mt-2 text-zinc-600">Yes, our trusted network of providers offers professional and compassionate home or vet clinic collection 7 days a week, including after hours and weekends across Brisbane North, South, East and West.</p>
+              <p className="mt-2 text-zinc-600">Yes, our team offers professional and compassionate home or vet clinic collection 7 days a week, including after hours and weekends across Brisbane North, South, East and West.</p>
             </div>
             <div>
               <h3 className="font-semibold text-lg">How long until I receive my pet's ashes back?</h3>
-              <p className="mt-2 text-zinc-600">Ashes are usually returned within 5-7 business days in a premium urn of your choice. Many providers also offer express options.</p>
+              <p className="mt-2 text-zinc-600">Ashes are usually returned within 5-7 business days in a premium urn of your choice. We also offer express options.</p>
             </div>
             <div>
               <h3 className="font-semibold text-lg">What is the difference between private and communal pet cremation?</h3>
@@ -323,11 +323,11 @@ export default function GentlePetCremation() {
             </div>
             <div>
               <h3 className="font-semibold text-lg">Can I choose memorial keepsakes or urns?</h3>
-              <p className="mt-2 text-zinc-600">Yes. A wide range of premium urns, paw prints, fur clips, photo frames and custom memorials are available from local Brisbane providers.</p>
+              <p className="mt-2 text-zinc-600">Yes. A wide range of premium urns, paw prints, fur clips, photo frames and custom memorials are available as part of our service.</p>
             </div>
             <div>
               <h3 className="font-semibold text-lg">Is 24/7 support and collection available for pet cremation Brisbane?</h3>
-              <p className="mt-2 text-zinc-600">Yes, many providers in our network offer 24/7 phone support and emergency collection services for grieving families.</p>
+              <p className="mt-2 text-zinc-600">Yes, our team offers 24/7 phone support and emergency collection services for grieving families.</p>
             </div>
             <div>
               <h3 className="font-semibold text-lg">What Brisbane suburbs do you service?</h3>

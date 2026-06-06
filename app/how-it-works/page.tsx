@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How Pet Cremation Works in Brisbane | Simple Process',
-  description: 'Learn how pet cremation works in Brisbane. Simple 4-step process from collection to ashes return. Compare providers and get started today.',
+  description: 'Learn how pet cremation works in Brisbane. Simple 4-step process from collection to ashes return. Get started with private pet cremation today.',
 };
 
 export default function HowItWorksPage() {
@@ -14,7 +14,7 @@ export default function HowItWorksPage() {
 
         <div className="mt-12 space-y-10">
           {[
-            ["1", "Request a Quote", "Fill out the form or call. We'll connect you with local providers."],
+            ["1", "Request a Quote", "Fill out the form or call. We handle the full process for you."],
             ["2", "Choose a Provider", "Compare options and select the service that fits your needs and budget."],
             ["3", "Collection", "The chosen provider arranges collection from your home or vet with care."],
             ["4", "Cremation & Return", "Private cremation is performed and ashes are returned to you within 5–7 days."],
