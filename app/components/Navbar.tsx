@@ -15,13 +15,12 @@ export default function Navbar() {
   return (
     <nav className="border-b border-zinc-200 bg-white">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <a href="/" className="flex items-center gap-3">
+        <a href="/" className="flex items-center">
           <img 
             src="/logo.png" 
             alt="Gentle Pet Cremation" 
-            className="h-9 w-auto"
+            className="h-12 w-auto"
           />
-          <span className="font-semibold tracking-tight text-lg">Gentle Pet Cremation</span>
         </a>
 
         {/* Desktop Navigation */}
